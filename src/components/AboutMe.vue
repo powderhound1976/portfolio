@@ -1,8 +1,9 @@
 <template>
   <section class="hero is-dark is-fullheight">
-    <div class="box cta ">
-        <p class="has-text-centered">
-            <span class="tag is-primary">New</span> The Elders of the Internet know who I am. Do you?
+    <div class="box cta yellow">
+        <p class="has-text-centered has-text-weight-bold has-text-black is-size-4-desktop ">
+          <i class="fas fa-ethernet has-text-black "></i>
+             The Elders of the Internet know who I am...   Do you?
         </p>
     </div>
     <div class="padFix">
@@ -16,13 +17,11 @@
     <div class="container section">
       <div class="columns  ">
         <div class=" column is-three-fifths is-offset-1">
-          <p class="container has-text-white is-size-5-desktop ">
-            Lorem ipsum dolor sit amet consectetur adipisicing
-            elit. Maiores fuga asperiores voluptatem explicabo?
-            Incidunt, illum unde! Magni assumenda ipsum libero
-            fugiat excepturi. Quisquam vitae earum explicabo vel
-            alias nemo harum!
+          <p class="container has-text-white is-size-4-desktop ">
+            Hi, I'm Chris! I am a freelance full-stack web developer, designer, and photographer from Salt Lake City, Utah. I am currently attending Weber State University, and am working towards a BS degree in WEB UX. 
           </p>
+          <br>
+          <p class="container has-text-white is-size-4-desktop ">I love web development and the entire process of designing and implementing beautiful sites. If you are interested in improving your online presence, you can contact me using the form below. I would love to work with you!</p>
         </div>
         <div class="column ">
           <figure class="image ">
@@ -69,8 +68,9 @@ i {
 }
 
 .is-dark {
-  background-color: #00000060;
+  background-color: #000000a4;
   color: white;
+
 }
 
 .align-vert {
@@ -83,4 +83,7 @@ figure {
   display: flex;
   justify-content: center;
 }
+
+.yellow {
+    background-color: #ff9900;}
 </style>

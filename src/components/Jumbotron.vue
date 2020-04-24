@@ -14,8 +14,8 @@
             {{subtitle}}
           </h2>
         </div>
-        <div class="buttons is-centered addTopMargin">
-          <button class="button is shadow is-primary is-inverted is-outlined is-large"><a href="#projects">View My Work</a></button>
+        <div class="buttons is-centered has-text-success addTopMargin">
+          <button class="button  is-primary is-inverted is-outlined is-large"><a href="#projects">View My Work</a></button>
         </div>
       </div>
     </div>
@@ -147,6 +147,9 @@ h2 {
 .navBackground {
   background-color: #022C4D;
 }
-
-
+.yellow {
+    background-color: #ff9900;}
+a {
+  color:#ff9900
+}
 </style>

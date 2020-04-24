@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-
+    <div class="">
       <nav
         class="navbar is-fixed-top is-dark"
         role="navigation"
@@ -22,31 +22,42 @@
 
         <div
           id="navbarBasicExample"
-          class="navbar-menu"
+          class="navbar-menu container"
         >
           <div class="navbar-start">
-            <a class="navbar-item" href="#home">
+            <a
+              class="navbar-item"
+              href="#home"
+            >
               Home
             </a>
 
-            <a class="navbar-item" href="#about">
+            <a
+              class="navbar-item"
+              href="#about"
+            >
               About Me
             </a>
-             <a class="navbar-item" href="#projects">
+            <a
+              class="navbar-item"
+              href="#projects"
+            >
               My Work
             </a>
-             <a class="navbar-item" href="#contact">
+            <a
+              class="navbar-item"
+              href="#contact"
+            >
               Contact Me
             </a>
 
-            
           </div>
 
         </div>
       </nav>
-  
+    </div>
     <app-hero id="home"></app-hero>
-        
+
     <app-about id="about"></app-about>
     <app-projects id="projects"></app-projects>
     <app-contact id="contact"></app-contact>
@@ -73,11 +84,11 @@ export default {
 }
 @import url("https://fonts.googleapis.com/css?family=Bebas+Neue|Fira+Sans:900i&display=swap");
 #app {
-  background-image: linear-gradient(to bottom, #006fc4, #01233f);
+  background-image: linear-gradient(to bottom, #00518f, #001424);
   display: block;
   height: 100%;
 }
-h1{
+h1 {
   font-family: "Fira Sans";
 }
 h2 {
