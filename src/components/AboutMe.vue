@@ -3,7 +3,7 @@
     <div class="box cta yellow">
         <p class="has-text-centered has-text-weight-bold has-text-black is-size-4-desktop ">
           <i class="fas fa-ethernet has-text-black "></i>
-             The Elders of the Internet know who I am...   Do you?
+             The Elders of the Internet know who Chris is...   Do you?
         </p>
     </div>
     <div class="padFix">
